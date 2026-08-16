@@ -4,14 +4,7 @@ A fully serverless log anomaly detection pipeline on AWS that automatically clas
 
 ## Architecture
 
-```
-CSV Upload → S3 (raw/) → Lambda → Bedrock (Claude Haiku) → S3 (processed/)
-                                                                    ↓
-                                              CloudWatch        Glue Crawler
-                                             (monitoring)       (catalog)
-                                                                    ↓
-                                                               Athena (SQL)
-```
+<img src="aiops_pipeline_architecture.png" alt="Architecture Diagram" width="500">
 
 ## Stack
 
