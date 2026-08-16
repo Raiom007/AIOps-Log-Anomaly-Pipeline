@@ -1,6 +1,20 @@
 # AIOps Log Anomaly Pipeline
 
-A fully serverless log anomaly detection pipeline on AWS that automatically classifies application logs as `critical`, `warning`, or `info` using AI.
+> Serverless log classification system built on AWS — automatically triages 
+> application logs as `critical`, `warning`, or `info` using LLM-based inference.
+
+Built as a hands-on project to demonstrate end-to-end cloud data engineering 
+and AIOps skills. The pipeline is fully event-driven — a CSV log file dropped 
+into S3 automatically triggers classification, storage, cataloging, and becomes 
+instantly queryable via SQL. No servers to manage.
+
+**Skills demonstrated:**
+- Serverless architecture design (AWS Lambda, S3 event triggers)
+- LLM integration via Amazon Bedrock (Claude 3 Haiku)
+- Data lake querying (AWS Glue + Amazon Athena)
+- Cloud monitoring and observability (CloudWatch dashboards)
+- IAM roles, trust policies, and cross-service permissions
+- Python (boto3, csv processing, encoding handling)
 
 ## Architecture
 
