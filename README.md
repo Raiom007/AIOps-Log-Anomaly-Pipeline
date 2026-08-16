@@ -75,10 +75,10 @@ ORDER BY critical_count DESC;
 ## Screenshots
 
 ### Athena — Log Classification Query
-![Athena](screenshots/athena_query_results.png)
+![Athena](Screenshots/athena_query_result.png)
 
 ### CloudWatch — Lambda Monitoring Dashboard
-![Dashboard](screenshots/cloudwatch_dashboard.png)
+![Dashboard](Screenshots/cloudwatch_dashboard.png)
 
 ## Setup Guide
 
