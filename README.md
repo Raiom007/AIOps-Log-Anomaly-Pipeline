@@ -4,7 +4,7 @@ A fully serverless log anomaly detection pipeline on AWS that automatically clas
 
 ## Architecture
 
-<img src="aiops_pipeline_architecture_v2.png" alt="Architecture Diagram" width="700">
+<img src="Architecture.png" alt="Architecture Diagram" width="700">
 
 ## Stack
 
