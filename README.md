@@ -72,6 +72,14 @@ GROUP BY service
 ORDER BY critical_count DESC;
 ```
 
+## Screenshots
+
+### Athena — Log Classification Query
+![Athena](screenshots/athena_query_results.png)
+
+### CloudWatch — Lambda Monitoring Dashboard
+![Dashboard](screenshots/cloudwatch_dashboard.png)
+
 ## Setup Guide
 
 ### Prerequisites
