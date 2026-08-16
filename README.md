@@ -139,9 +139,9 @@ ORDER BY critical_count DESC;
 
 ```
 AIOps-Log-Anomaly-Pipeline/
-├── lambda_function.py       # Lambda handler + Bedrock classifier
+├── lambda_function.py       (Lambda handler + Bedrock classifier)
 ├── sample_logs/
-│   └── logs_test_01.csv     # Sample input CSV
+│   └── logs_test_01.csv     (Sample input CS)
 └── README.md
 ```
 
