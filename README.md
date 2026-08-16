@@ -133,5 +133,4 @@ AIOps-Log-Anomaly-Pipeline/
 
 ## Author
 
-Om Rai — CS/ISE Student, Acharya Institute of Technology, Bangalore  
-Targeting: AI Engineer | Data Engineer | AIOps Intern roles
+Om Rai 
