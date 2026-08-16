@@ -1,0 +1,9 @@
+timestamp,level,service,message
+2024-01-15 10:01:00,ERROR,auth-service,Failed to connect to database after 5 retries
+2024-01-15 10:02:00,INFO,api-gateway,User login successful for user_id 1042
+2024-01-15 10:03:00,WARN,payment-service,Payment processing latency exceeded 3000ms threshold
+2024-01-15 10:04:00,ERROR,auth-service,NullPointerException in TokenValidator line 84
+2024-01-15 10:05:00,INFO,api-gateway,Health check passed
+2024-01-15 10:06:00,WARN,inventory-service,Stock level below reorder point for item SKU-4421
+2024-01-15 10:07:00,ERROR,payment-service,Transaction rollback triggered due to timeout
+2024-01-15 10:08:00,INFO,auth-service,Cache refreshed successfully
